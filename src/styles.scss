@@ -190,7 +190,7 @@ img {
 }
 
 .toggle {
-  background: #f68819;
+  background: #19a5f6;
   border-radius: 50px;
   height: 18px;
   left: 0;
@@ -239,15 +239,23 @@ text-align: left;
 }
 
 .coin__logo {
-  width: 50px;
+  width: 60px;
 }
 
 .dark-mode {
   color: #fff;
-  background-color: #313843;
+  background-color: #21262e;
 
   .navbar {
     background-color: #1F2022;
     border: none;
+  }
+
+  .charts {
+    color: red;
+  }
+  
+  .line{
+    color: red;
   }
 }

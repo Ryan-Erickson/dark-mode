@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { useLocalStorage } from '../hooks/useLocalStorage';
+import { useLocalStorage } from './useLocalStorage';
 
 export const useDarkMode = (initialValue) => {
     const [darkMode, setDarkMode] = useLocalStorage(initialValue)
@@ -13,4 +13,6 @@ export const useDarkMode = (initialValue) => {
     }, [darkMode])
 
     return [darkMode, setDarkMode]
+
+    
 }
